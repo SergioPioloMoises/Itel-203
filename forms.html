@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms</title>
+<style>
+	*{
+		font-family: verdana;
+	}
+	body{
+		width:500px;
+		padding:20px;
+		margin:auto;
+		font+size:20px;
+		background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	}
+	form{ 
+		width:500px;
+		padding:20px;
+		margin:auto;
+		font+size:20px;
+		}
+		input[type=text]{
+		width:100&;
+		padding:5px;
+		font+size:17px;
+		}
+		input[type=password]{
+		width:100&;
+		padding:5px;
+		font+size:17px;
+		}
+		input[type=email]{
+		width:100&;
+		padding:5px;
+		font+size:17px;
+		}
+		input[type=number]{
+		width:100&;
+		padding:5px;
+		font+size:17px;
+		}
+		input[type=tel]{
+		width:100&;
+		padding:5px;
+		font+size:17px;
+		}
+</style>
+</head>
+
+<body>
+	<h1>Ep-Bi</h1>
+	
+	<input type="text" First Name="First Name" placeholder="First Name">
+	<input type="text" Last Name="Last Name" placeholder="Last Name"><br>
+	<input type="number" Age="Age" placeholder="Age">
+	<input type="tel" Number="Number" placeholder="Number"><br>
+	<input type="email" Email="Email" placeholder="Email">
+	<input type="password" Password="Password" placeholder="Password">
+	
+	<form>
+	<label><b>Birthday</b></label><br>
+	<input type="date" id="send"oninput="result.value = send. value"><br>
+	<label><b>Gender</b></label><br>
+	<input type="radio" name="gender" value="Male">
+	Male
+	<input type="radio" name="gender" value="Female">
+	Female
+	<input type="radio" name="gender" value="Custom">
+	Custom<br>
+	<input type="submit" style="width:100px; height:40px;" value="Sign up">
+	</form>
+</body>
+
+</html>
